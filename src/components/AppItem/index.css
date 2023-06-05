@@ -1,0 +1,37 @@
+.appItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 16px 5px 10px 5px;
+  width: 45%;
+  max-width: 128px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.appImage {
+  width: 70px;
+  height: 70px;
+}
+.appName {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .appItem {
+    max-width: 198px;
+    padding-top: 24px;
+    margin: 0px 10px 20px 10px;
+  }
+  .appImage {
+    width: 102px;
+    height: 102px;
+  }
+  .appName {
+    font-family: 'Bree Serif';
+    font-size: 24px;
+  }
+}

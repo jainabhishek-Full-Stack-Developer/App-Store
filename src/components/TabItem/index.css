@@ -1,0 +1,31 @@
+.tabItem {
+  list-style: none;
+}
+.tabButton {
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #dfe2e5;
+  padding: 0px 16px 4px 16px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.active {
+  color: #2563eb;
+  border-bottom: 2px soild #2563eb;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .tabButton {
+    font-size: 16px;
+    padding: 0px 26px 8px 26px;
+  }
+  .active {
+    padding-bottom: 12px;
+  }
+}
